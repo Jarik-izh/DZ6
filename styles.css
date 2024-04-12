@@ -1,0 +1,29 @@
+table.iksweb {
+    width: 30%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table.iksweb,
+table.iksweb td,
+table.iksweb th {
+    border: 2px double #595959; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+table.iksweb th {
+    background-color: #347c99; 
+    color: #fff;
+    font-weight: normal;
+}
+
+td.blue {
+    background-color: #347c99; 
+    color: #fff;
+}
+
+td:not(.blue) {
+    background-color: yellow; 
+}
